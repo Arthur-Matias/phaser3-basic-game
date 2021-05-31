@@ -27,11 +27,11 @@ const game = new Phaser.Game(config);
 function preload ()
 {
     // 800 x 600
-    this.load.image('sky', 'https://github.com/Arthur-Matias/phaser3-basic-game/blob/main/assets/sky.png?raw=true');
+    this.load.image('sky', '../assets/sky.png?raw=true');
     // 400 x 32
-    this.load.image('ground', 'https://raw.githubusercontent.com/Arthur-Matias/phaser3-basic-game/main/assets/platform.png');
-    this.load.image('star', 'https://raw.githubusercontent.com/Arthur-Matias/phaser3-basic-game/main/assets/star.png');
-    this.load.image('bomb', 'https://raw.githubusercontent.com/Arthur-Matias/phaser3-basic-game/main/assets/bomb.png');
+    this.load.image('ground', '/main/assets/platform.png');
+    this.load.image('star', '../main/assets/star.png');
+    this.load.image('bomb', '../assets/bomb.png');
     this.load.spritesheet('dude', 'https://raw.githubusercontent.com/Arthur-Matias/phaser3-basic-game/main/assets/dude.png', {frameWidth: 32, frameHeight: 48})
 }
 
