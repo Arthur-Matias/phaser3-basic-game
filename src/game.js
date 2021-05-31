@@ -27,7 +27,7 @@ const game = new Phaser.Game(config);
 function preload ()
 {
     // 800 x 600
-    this.load.image('sky', '../assets/sky.png?raw=true');
+    this.load.image('sky', '/assets/sky.png');
     // 400 x 32
     this.load.image('ground', '/assets/.png');
     this.load.image('star', '/assets/star.png');
